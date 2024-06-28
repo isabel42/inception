@@ -6,14 +6,14 @@ volumes:
     driver: local                          # 
     name: mariadb_v
     driver_opts:
-      device: /Users/isabeltovar/data/mariadb/    # Emplacement du dossier binded sur la machine hôte
+      device: /home/itovar-n/data/mariadb/    # Emplacement du dossier binded sur la machine hôte
       type: none
       o: bind
   wordpress_v:
     driver: local
     name: wordpress_v
     driver_opts:
-      device: /Users/isabeltovar/data/wordpress/
+      device: /home/itovar-n/data/wordpress/
       type: none
       o: bind
 
